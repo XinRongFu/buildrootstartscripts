@@ -1,0 +1,21 @@
+From 200705aaf5b395af9808a75a578fa1684229d098 Mon Sep 17 00:00:00 2001
+From: Sean Fu <fxinrong@gmail.com>
+Date: Sun, 29 Sep 2024 11:31:18 +0800
+Subject: [PATCH 1/1] Custmer initialization.
+
+Signed-off-by: Sean Fu <fxinrong@gmail.com>
+---
+ board/custom/override.mk | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 board/custom/override.mk
+
+diff --git a/board/custom/override.mk b/board/custom/override.mk
+new file mode 100644
+index 0000000000..a1b03526d5
+--- /dev/null
++++ b/board/custom/override.mk
+@@ -0,0 +1 @@
++LINUX_OVERRIDE_SRCDIR=/home/huawei/source/linux
+-- 
+2.34.1
+
